@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'CAS: Central Authentication Service'
+date: '2009-05-03T20:20:00.000-07:00'
+author: Kris Hagel
+tags:
+- Microsoft Technologies
+- CAS
+- Google Apps
+- Open Source
+- Documentation
+modified_time: '2009-05-14T09:56:12.122-07:00'
+thumbnail: http://1.bp.blogspot.com/_BBmDIqRhYWw/Sf5j5bjDhJI/AAAAAAAAAv0/Swkf-9KlkZw/s72-c/Picture+3.png
+blogger_id: tag:blogger.com,1999:blog-3730747668829960203.post-4852857423730992167
+blogger_orig_url: http://blog.krishagel.com/2009/05/cas-central-authentication-service.html
+---
+
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_BBmDIqRhYWw/Sf5j5bjDhJI/AAAAAAAAAv0/Swkf-9KlkZw/s1600-h/Picture+3.png"><img style="margin: 0pt 10px 10px 0pt; float: left; cursor: pointer; width: 288px; height: 193px;" src="http://1.bp.blogspot.com/_BBmDIqRhYWw/Sf5j5bjDhJI/AAAAAAAAAv0/Swkf-9KlkZw/s320/Picture+3.png" alt="" id="BLOGGER_PHOTO_ID_5331808847151727762" border="0" /></a>Last school year my boss came back from the <a href="http://www.cosn.org/">COSN</a> conference and was quite excited about the single sign-on systems he had seen demonstrated there, specifically, <a href="http://www.jasig.org/cas">CAS (Central Authentication Service)</a> and <a href="http://shibboleth.internet2.edu/">Shibboleth</a>.  After spending quite a bit of time researching these two technologies which were completely new to me, I determined that in our infrastructure currently we didn't have the need for Shibboleth, which is more of a federated authentication architecture between organizations.  Shibboleth seems to me to be a lot like what OpenID is trying to accomplish throughout the open source community, and at the time, it just didn't seem like something we needed.<br /><br />CAS on the other hand was something that was going to be needed badly throughout our organization in the very near future.  What CAS does is split apart the authentication layer from the actual data source and provides a web-based single sign-on architecture throughout your organization.  CAS allows you to use any LDAP or even database backend as the authentication authority.  For us, we needed to use Active Directory, as that is where all of our usernames and password currently reside, luckily, this works just fine with CAS as well.<br /><br />As part of everything that I am doing in my current position, I have fully documented the steps necessary to get this setup from the ground up.  I need to double check the document a little bit better to make sure it is fit for public consumption, but when I do, I will post it here as a step by step document for people looking to set this up in their organization.<br /><br />Just as a further side note on what can be setup to authenticate with CAS, we are currently authenticating our Google Apps setup (more on this in another post), Moodle, Wordpress, and an application custom built for us by contractors.  There are also instructions on their website for authenticating many other systems such as Outlook Web Access, Joomla, PeopleSoft, and many others.
