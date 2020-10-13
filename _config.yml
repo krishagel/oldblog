@@ -19,15 +19,15 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 footer-links:
   dribbble:
   email: kris@krishagel.com
-  facebook:
+  facebook: krishagel
   flickr:
   github: krishagel
-  instagram:
+  instagram: krishagel
   linkedin: krishagel
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: krishagel
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/224041/kris
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
