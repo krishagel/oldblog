@@ -4,7 +4,7 @@ title: Work Journal
 permalink: /work-journal/
 ---
 
-### Doings and learnings. Updated weekly.
+## Doings and learnings. Updated weekly.
 
 #### Week of October 12th, 2020
 
