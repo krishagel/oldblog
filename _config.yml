@@ -28,6 +28,9 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter: krishagel
   stackoverflow: users/224041/kris
+  mastodon:
+      - username: krishagel
+        instance: mastodon.online
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
